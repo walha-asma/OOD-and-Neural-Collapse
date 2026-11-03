@@ -1,0 +1,28 @@
+======================================================================
+TRAIN RESNET-18 ON CIFAR-100
+======================================================================
+Job ID: 12944
+Node: ensta-l40s01.r2.enst.fr
+Started: mar. 17 févr. 2026 11:24:32 CET
+======================================================================
+Using device: cuda
+Total parameters: 11,220,132
+Starting training : 
+Epoch   1 | Train Loss: 3.9130 Acc: 0.0981 | Test Loss: 3.4444 Acc: 0.1646 | LR: 0.099975
+Epoch  10 | Train Loss: 1.4456 Acc: 0.5883 | Test Loss: 1.7833 Acc: 0.5218 | LR: 0.097553
+Epoch  20 | Train Loss: 1.1344 Acc: 0.6683 | Test Loss: 1.8993 Acc: 0.5092 | LR: 0.090451
+Epoch  30 | Train Loss: 0.9646 Acc: 0.7148 | Test Loss: 1.6614 Acc: 0.5670 | LR: 0.079389
+Epoch  40 | Train Loss: 0.7977 Acc: 0.7607 | Test Loss: 1.5614 Acc: 0.5987 | LR: 0.065451
+Epoch  50 | Train Loss: 0.6152 Acc: 0.8114 | Test Loss: 1.4588 Acc: 0.6273 | LR: 0.050000
+Epoch  60 | Train Loss: 0.3803 Acc: 0.8844 | Test Loss: 1.4259 Acc: 0.6477 | LR: 0.034549
+Epoch  70 | Train Loss: 0.1493 Acc: 0.9584 | Test Loss: 1.1882 Acc: 0.7176 | LR: 0.020611
+Epoch  80 | Train Loss: 0.0213 Acc: 0.9978 | Test Loss: 0.9731 Acc: 0.7597 | LR: 0.009549
+Epoch  90 | Train Loss: 0.0115 Acc: 0.9996 | Test Loss: 0.9103 Acc: 0.7670 | LR: 0.002447
+Epoch 100 | Train Loss: 0.0106 Acc: 0.9996 | Test Loss: 0.9014 Acc: 0.7713 | LR: 0.000000
+
+Final Test Accuracy: 0.7713
+Saved model, history, and training curves to outputs/
+
+======================================================================
+Fin du job: mar. 17 févr. 2026 11:35:02 CET
+Exit code: 0

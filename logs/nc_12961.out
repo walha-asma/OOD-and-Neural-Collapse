@@ -1,0 +1,27 @@
+======================================================================
+NEURAL COLLAPSE ANALYSIS
+======================================================================
+Job ID: 12961
+Node: ensta-l40s01.r2.enst.fr
+Started: mar. 17 févr. 2026 14:18:32 CET
+======================================================================
+Using device: cuda
+Loaded checkpoint from outputs/resnet18_cifar100.pth
+Extracting ID train features...
+Extracting ID test features...
+Extracting OOD features...
+
+ Neural Collapse Analysis
+NC1 (Variability Collapse) = 0.509067  (lower = more collapsed)
+NC2 (Simplex ETF): mean_cos=-0.010046, theoretical=-0.010101, std=0.100518, norm_std=0.051481
+NC3 (Self-Duality): mean_cos=0.962589, std=0.010311, min=0.925620
+NC4 (NCC Simplification): agreement=0.9580, classifier_acc=0.7713, ncc_acc=0.7697
+Saved outputs/neural_collapse_nc1_nc4.png
+NC5 (OOD Orthogonality): OrthoDev=0.106008, mean_cos=0.000077
+Saved outputs/neural_collapse_nc5.png
+
+Done! All Neural Collapse outputs saved to outputs/
+
+======================================================================
+Fin du job: mar. 17 févr. 2026 14:19:00 CET
+Exit code: 0

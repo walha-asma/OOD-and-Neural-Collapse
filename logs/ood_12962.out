@@ -1,0 +1,35 @@
+======================================================================
+OOD DETECTION ANALYSIS
+======================================================================
+Job ID: 12962
+Node: ensta-l40s01.r2.enst.fr
+Started: mar. 17 févr. 2026 14:20:03 CET
+======================================================================
+Using device: cuda
+Loaded checkpoint from outputs/resnet18_cifar100.pth
+Extracting ID train features...
+Extracting ID test features...
+Extracting OOD features...
+
+Computing class statistics...
+Computing OOD scores...
+
+Method                  AUROC   FPR@95
+======================================
+MSP                    0.8508   0.6606
+Max Logit              0.8807   0.6292
+Energy                 0.8846   0.6041
+Mahalanobis            0.7847   0.8291
+ViM                    0.9027   0.5163
+NECO (raw)             0.8477   0.5813
+NECO (rescaled)        0.8834   0.6208
+Saved outputs/training_curves.png
+Saved outputs/ood_score_distributions.png
+Saved outputs/roc_curves.png
+Saved outputs/final_comparison.png
+
+Done! All OOD outputs saved to outputs/
+
+======================================================================
+Fin du job: mar. 17 févr. 2026 14:20:38 CET
+Exit code: 0
